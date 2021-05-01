@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Header() {
+function Header() {
   return (
     <header className="masthead text-center text-white">
       <div className="masthead-content">
@@ -21,3 +21,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;

@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { paymentSubmitted } from "../../../redux/actions/paymentActions";
 import { withRouter } from "react-router-dom";
 
-class About extends React.Component {
+class About extends React.PureComponent {
   payNow = () => {
     localStorage.setItem("paid", "paid");
 

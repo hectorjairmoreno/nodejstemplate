@@ -2,7 +2,7 @@ import React from "react";
 import Lottie from "react-lottie";
 import { withRouter } from "react-router-dom";
 
-export class Error extends React.Component {
+export class Error extends React.PureComponent {
   state = { isStopped: false, isPaused: false };
 
   relocate = () => {

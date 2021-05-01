@@ -4,7 +4,7 @@ import Home from "./components/container/home";
 import Success from "./components/container/success";
 import Error from "./components/container/error";
 
-class App extends React.Component {
+class App extends React.PureComponent {
   render() {
     return (
       <Switch>
