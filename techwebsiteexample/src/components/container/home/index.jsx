@@ -1,8 +1,9 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
+
 import Header from "../../presentational/header";
 import Footer from "../../presentational/footer";
 import About from "../about";
-import { withRouter } from "react-router-dom";
 
 class Home extends React.PureComponent {
   render() {

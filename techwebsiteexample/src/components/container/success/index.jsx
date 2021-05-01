@@ -1,7 +1,7 @@
 import React from "react";
-import Lottie from "react-lottie";
-import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
+import Lottie from "react-lottie";
 
 class Success extends React.PureComponent {
   state = { isStopped: false, isPaused: false };

@@ -2,8 +2,9 @@
 import React from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { paymentSubmitted } from "../../../redux/actions/paymentActions";
 import { withRouter } from "react-router-dom";
+
+import { paymentSubmitted } from "../../../redux/actions/paymentActions";
 
 class About extends React.PureComponent {
   payNow = () => {
